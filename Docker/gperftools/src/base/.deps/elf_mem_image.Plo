@@ -1,0 +1,8 @@
+src/base/elf_mem_image.lo: src/base/elf_mem_image.cc \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h \
+ src/base/elf_mem_image.h src/config.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/features.h
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h:
+src/base/elf_mem_image.h:
+src/config.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/features.h:

@@ -1,0 +1,75 @@
+src/tests/getpc_test.o: src/tests/getpc_test.cc \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h \
+ src/config.h src/getpc.h src/config.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/string.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/features.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/strings.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/asm/ptrace.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/asm/ptrace-abi.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/linux/types.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/asm/types.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/asm-generic/types.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/asm-generic/int-ll64.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/asm/bitsperlong.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/asm-generic/bitsperlong.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/linux/posix_types.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/linux/stddef.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/asm/posix_types.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/asm/posix_types_64.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/asm-generic/posix_types.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/asm/processor-flags.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/linux/const.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/ucontext.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/ucontext.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/signal.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/signal.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdio.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/stdlib.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cstdlib \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/c++config.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/os_defines.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/cpu_defines.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdlib.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/alloca.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/std_abs.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/time.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h:
+src/config.h:
+src/getpc.h:
+src/config.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/string.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/features.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/strings.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/asm/ptrace.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/asm/ptrace-abi.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/linux/types.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/asm/types.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/asm-generic/types.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/asm-generic/int-ll64.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/asm/bitsperlong.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/asm-generic/bitsperlong.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/linux/posix_types.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/linux/stddef.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/asm/posix_types.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/asm/posix_types_64.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/asm-generic/posix_types.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/asm/processor-flags.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/linux/const.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/ucontext.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/ucontext.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/signal.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/signal.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdio.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/stdlib.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cstdlib:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/c++config.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/os_defines.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/cpu_defines.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdlib.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/alloca.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/std_abs.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/time.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h:

@@ -1,0 +1,27 @@
+benchmark/run_benchmark.lo: benchmark/run_benchmark.c \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h \
+ benchmark/run_benchmark.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdint.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/stdint.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdio.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/features.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdlib.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/alloca.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/string.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/strings.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/time.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h:
+benchmark/run_benchmark.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdint.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/stdint.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdio.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/features.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdlib.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/alloca.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/string.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/strings.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/time.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h:

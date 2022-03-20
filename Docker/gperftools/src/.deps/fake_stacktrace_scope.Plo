@@ -1,0 +1,26 @@
+src/fake_stacktrace_scope.lo: src/fake_stacktrace_scope.cc \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h \
+ src/base/basictypes.h src/config.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/string.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/features.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/strings.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/inttypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdint.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/stdint.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/types.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/endian.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h:
+src/base/basictypes.h:
+src/config.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/string.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/features.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/strings.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/inttypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdint.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/stdint.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/types.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/endian.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h:

@@ -1,0 +1,61 @@
+src/libtcmalloc_internal_with_asserts_la-common.lo: src/common.cc \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/stdlib.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cstdlib \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/c++config.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/os_defines.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/cpu_defines.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdlib.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/features.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/alloca.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/std_abs.h \
+ src/config.h src/common.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stddef.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdint.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/stdint.h \
+ src/internal_logging.h src/config.h src/base/basictypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/string.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/strings.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/inttypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/types.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/endian.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h \
+ src/system-alloc.h src/base/spinlock.h src/base/atomicops.h \
+ src/base/arm_instruction_set_select.h src/base/atomicops-internals-x86.h \
+ src/base/basictypes.h src/base/dynamic_annotations.h \
+ src/base/thread_annotations.h src/getenv_safe.h
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/stdlib.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cstdlib:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/c++config.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/os_defines.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/cpu_defines.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdlib.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/features.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/alloca.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/std_abs.h:
+src/config.h:
+src/common.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stddef.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdint.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/stdint.h:
+src/internal_logging.h:
+src/config.h:
+src/base/basictypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/string.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/strings.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/inttypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/types.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/endian.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h:
+src/system-alloc.h:
+src/base/spinlock.h:
+src/base/atomicops.h:
+src/base/arm_instruction_set_select.h:
+src/base/atomicops-internals-x86.h:
+src/base/basictypes.h:
+src/base/dynamic_annotations.h:
+src/base/thread_annotations.h:
+src/getenv_safe.h:

@@ -1,0 +1,20 @@
+src/tests/malloc_extension_c_test-malloc_extension_c_test.o: \
+ src/tests/malloc_extension_c_test.c \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdio.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/features.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdlib.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stddef.h \
+ src/gperftools/malloc_extension_c.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/types.h \
+ src/gperftools/malloc_hook_c.h
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdio.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/features.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdlib.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stddef.h:
+src/gperftools/malloc_extension_c.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/types.h:
+src/gperftools/malloc_hook_c.h:

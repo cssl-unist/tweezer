@@ -1,0 +1,225 @@
+src/libtcmalloc_and_profiler_la-profiledata.lo: src/profiledata.cc \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h \
+ src/config.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/assert.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/features.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdio.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/stdlib.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cstdlib \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/c++config.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/os_defines.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/cpu_defines.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdlib.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/alloca.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/std_abs.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/errno.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/errno.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/unistd.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/posix.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/time.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/string.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/strings.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/fcntl.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/fcntl.h \
+ src/profiledata.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/time.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdint.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/stdint.h \
+ src/base/basictypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/inttypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/types.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/endian.h \
+ src/base/logging.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdarg.h \
+ src/base/commandlineflags.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/string \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/stringfwd.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/memoryfwd.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/char_traits.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/stl_algobase.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/functexcept.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/exception_defines.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/cpp_type_traits.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/ext/type_traits.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/ext/numeric_traits.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/stl_pair.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/move.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/type_traits \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/stl_iterator_base_types.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/stl_iterator_base_funcs.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/concept_check.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/debug/assertions.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/stl_iterator.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/ptr_traits.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/debug/debug.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/predefined_ops.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/postypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cwchar \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/wchar.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cstdint \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/allocator.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/c++allocator.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/ext/new_allocator.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/new \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/exception \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/exception.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/exception_ptr.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/cxxabi_init_exception.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stddef.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/typeinfo \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/hash_bytes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/nested_exception.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/localefwd.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/c++locale.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/clocale \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/locale.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/iosfwd \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cctype \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/ctype.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/ostream_insert.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/cxxabi_forced.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/stl_function.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/backward/binders.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/range_access.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/initializer_list \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/iterator_concepts.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/concepts \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/range_cmp.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/int_limits.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/basic_string.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/ext/atomicity.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/gthr.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/gthr-default.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/pthread.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sched.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/atomic_word.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/ext/alloc_traits.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/alloc_traits.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/stl_construct.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/ext/string_conversions.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cstdio \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cerrno \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/charconv.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/functional_hash.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/basic_string.tcc \
+ src/base/basictypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/syscall.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/syscall.h \
+ src/base/sysinfo.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/limits.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/limits.h \
+ src/base/logging.h
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h:
+src/config.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/assert.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/features.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdio.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/stdlib.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cstdlib:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/c++config.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/os_defines.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/cpu_defines.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdlib.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/alloca.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/std_abs.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/errno.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/errno.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/unistd.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/posix.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/time.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/string.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/strings.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/fcntl.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/fcntl.h:
+src/profiledata.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/time.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdint.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/stdint.h:
+src/base/basictypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/inttypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/types.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/endian.h:
+src/base/logging.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdarg.h:
+src/base/commandlineflags.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/string:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/stringfwd.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/memoryfwd.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/char_traits.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/stl_algobase.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/functexcept.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/exception_defines.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/cpp_type_traits.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/ext/type_traits.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/ext/numeric_traits.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/stl_pair.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/move.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/type_traits:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/stl_iterator_base_types.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/stl_iterator_base_funcs.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/concept_check.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/debug/assertions.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/stl_iterator.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/ptr_traits.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/debug/debug.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/predefined_ops.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/postypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cwchar:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/wchar.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cstdint:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/allocator.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/c++allocator.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/ext/new_allocator.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/new:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/exception:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/exception.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/exception_ptr.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/cxxabi_init_exception.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stddef.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/typeinfo:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/hash_bytes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/nested_exception.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/localefwd.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/c++locale.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/clocale:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/locale.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/iosfwd:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cctype:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/ctype.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/ostream_insert.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/cxxabi_forced.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/stl_function.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/backward/binders.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/range_access.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/initializer_list:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/iterator_concepts.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/concepts:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/range_cmp.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/int_limits.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/basic_string.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/ext/atomicity.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/gthr.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/gthr-default.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/pthread.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sched.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/atomic_word.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/ext/alloc_traits.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/alloc_traits.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/stl_construct.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/ext/string_conversions.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cstdio:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cerrno:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/charconv.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/functional_hash.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/basic_string.tcc:
+src/base/basictypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/syscall.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/syscall.h:
+src/base/sysinfo.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/limits.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/limits.h:
+src/base/logging.h:

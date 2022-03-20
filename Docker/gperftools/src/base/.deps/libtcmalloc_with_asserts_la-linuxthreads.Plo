@@ -1,0 +1,99 @@
+src/base/libtcmalloc_with_asserts_la-linuxthreads.lo: \
+ src/base/linuxthreads.cc \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h \
+ src/base/linuxthreads.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sched.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/features.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/signal.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/signal.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/stdlib.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cstdlib \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/c++config.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/os_defines.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/cpu_defines.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdlib.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/alloca.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/std_abs.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/string.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/strings.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/fcntl.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/fcntl.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/socket.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/socket.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/wait.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/resource.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/time.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/resource.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/prctl.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdint.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/stdint.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/semaphore.h \
+ src/base/linux_syscall_support.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/errno.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/errno.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdarg.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stddef.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/ptrace.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/ptrace.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/types.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/endian.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/syscall.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/syscall.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/syscall.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/unistd.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/posix.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/linux/unistd.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/asm/unistd.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/asm/unistd_64.h \
+ src/base/thread_lister.h src/base/linux_syscall_support.h
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h:
+src/base/linuxthreads.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sched.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/features.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/signal.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/signal.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/stdlib.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cstdlib:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/c++config.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/os_defines.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/cpu_defines.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdlib.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/alloca.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/std_abs.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/string.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/strings.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/fcntl.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/fcntl.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/socket.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/socket.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/wait.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/resource.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/time.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/resource.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/prctl.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdint.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/stdint.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/semaphore.h:
+src/base/linux_syscall_support.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/errno.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/errno.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdarg.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stddef.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/ptrace.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/ptrace.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/types.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/endian.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/syscall.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/syscall.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/syscall.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/unistd.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/posix.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/linux/unistd.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/asm/unistd.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/asm/unistd_64.h:
+src/base/thread_lister.h:
+src/base/linux_syscall_support.h:

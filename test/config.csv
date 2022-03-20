@@ -1,0 +1,50 @@
+# Mode :
+#   'B' : Running benchmarks
+#   'F' : Fill the workloads
+# Fillsize : When choose 'F' mode, set size of benchmarks
+#   '16_128' : 16GB with 128 value size. Num = 120000000
+#   '16_1024' : 16GB with 1024 value size. Num = 15000000
+#   '64_128' : 64GB with 1024 value size. Num = 480000000
+#   '64_1024' : 64GB with 128 value size. NUM = 60000000
+# Workloads :
+#   M(mode) :
+#       'F' : fillrandom
+#       'E' : use_existing_db
+#   'R100_K_V_M" : readrandomwriterandom, readwritepercent = 100, key_size=K, value_size=V
+#   'R90_K_V_M" : readrandomwriterandom, readwritepercent = 90, key_size=K, value_size=V
+#   'R80_K_V_M" : readrandomwriterandom, readwritepercent = 80, key_size=K, value_size=V
+#   'RAN_K_V_M" : seekrandom, key_size=K, value_size=V
+# dir : this option specify directory
+#   if you using 'F' mode, this option specify generated directory.
+#   if you using '_M' as 'E' in workloads, this option specify where you copied from.
+# binary : Speicify path to binary that will be used to test.
+# block : Specify block size for SSTable.
+# cache : Specify block cache size.
+# entries : Speicify entry size (num)
+# threads : Specify number of threads.
+#F; 16_128; ; /home/ikjae/testing/16_128_vanilla ;./binary/vanilla; 32;8; ; ;
+B;;R100_16_128 ;;../binary/tweezer; 4;8; 5000000; 1;
+B;;R90_16_128 ;;../binary/tweezer; 4;8; 5000000; 1;
+B;;R80_16_128 ;;../binary/tweezer; 4;8; 5000000; 1;
+
+B;;R100_16_1024 ;;../binary/tweezer; 4;8; 5000000; 1;
+B;;R90_16_1024 ;;../binary/tweezer; 4;8; 5000000; 1;
+B;;R80_16_1024 ;;../binary/tweezer; 4;8; 5000000; 1;
+
+B;;R100_16_128 ;;../binary/tweezer; 32;8; 5000000; 1;
+B;;R90_16_128 ;;../binary/tweezer; 32;8; 5000000; 1;
+B;;R80_16_128 ;;../binary/tweezer; 32;8; 5000000; 1;
+
+B;;R100_16_1024 ;;../binary/tweezer; 32;8; 5000000; 1;
+B;;R90_16_1024 ;;../binary/tweezer; 32;8; 5000000; 1;
+B;;R80_16_1024 ;;../binary/tweezer; 32;8; 5000000; 1;
+
+B;;R90_16_64 ;;../binary/tweezer; 32;8; 5000000; 1;
+B;;R90_16_256 ;;../binary/tweezer; 32;8; 5000000; 1;
+B;;R90_16_512 ;;../binary/tweezer; 32;8; 5000000; 1;
+B;;R90_16_2048 ;;../binary/tweezer; 32;8; 5000000; 1;
+B;;R90_16_4096 ;;../binary/tweezer; 32;8; 5000000; 1;
+
+B;;R90_16_1024 ;;../binary/tweezer; 32;8; 5000000; 2;
+B;;R90_16_1024 ;;../binary/tweezer; 32;8; 5000000; 4;
+B;;R90_16_1024 ;;../binary/tweezer; 32;8; 5000000; 8;

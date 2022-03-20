@@ -1,0 +1,29 @@
+src/base/vdso_support.lo: src/base/vdso_support.cc \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h \
+ src/base/vdso_support.h src/config.h src/base/basictypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/string.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/features.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/strings.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/inttypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdint.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/stdint.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/types.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/endian.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h \
+ src/base/elf_mem_image.h
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h:
+src/base/vdso_support.h:
+src/config.h:
+src/base/basictypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/string.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/features.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/strings.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/inttypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdint.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/stdint.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/types.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/endian.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h:
+src/base/elf_mem_image.h:

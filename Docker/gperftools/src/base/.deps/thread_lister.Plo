@@ -1,0 +1,30 @@
+src/base/thread_lister.lo: src/base/thread_lister.c \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h \
+ src/config.h src/base/thread_lister.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdarg.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/types.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/features.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/endian.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdint.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/stdint.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdio.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/unistd.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/posix.h \
+ src/base/linuxthreads.h
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h:
+src/config.h:
+src/base/thread_lister.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdarg.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/types.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/features.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/endian.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdint.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/stdint.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdio.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/unistd.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/posix.h:
+src/base/linuxthreads.h:

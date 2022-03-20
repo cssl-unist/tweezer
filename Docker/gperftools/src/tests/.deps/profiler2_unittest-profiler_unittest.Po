@@ -1,0 +1,58 @@
+src/tests/profiler2_unittest-profiler_unittest.o: \
+ src/tests/profiler_unittest.cc \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h \
+ src/config_for_unittests.h src/config.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdio.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/features.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/stdlib.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cstdlib \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/c++config.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/os_defines.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/cpu_defines.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/stdlib.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/alloca.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/std_abs.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/unistd.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/posix.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/wait.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/signal.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/signal.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/resource.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/time.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/bits/resource.h \
+ src/gperftools/profiler.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/time.h \
+ src/base/simple_mutex.h src/config.h \
+ /opt/scone/cross-compiler/x86_64-linux-musl/include/assert.h \
+ src/tests/testutil.h
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdc-predef.h:
+src/config_for_unittests.h:
+src/config.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdio.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/features.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/alltypes.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/stdlib.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/cstdlib:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/c++config.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/os_defines.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/x86_64-linux-musl/bits/cpu_defines.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/stdlib.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/alloca.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/c++/10.2.0/bits/std_abs.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/unistd.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/posix.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/wait.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/signal.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/signal.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/resource.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/time.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/sys/select.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/bits/resource.h:
+src/gperftools/profiler.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/time.h:
+src/base/simple_mutex.h:
+src/config.h:
+/opt/scone/cross-compiler/x86_64-linux-musl/include/assert.h:
+src/tests/testutil.h:
