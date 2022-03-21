@@ -70,8 +70,6 @@ $ sudo delete_tmpfs.sh
 
 ## Publications
 ```
-A Log-Structured Merge Tree-aware Message Authentication Scheme for Persistent Key-Value Stores
-
 @inproceedings {277820,
 title       = {A {Log-Structured} Merge Tree-aware Message Authentication Scheme for Persistent {Key-Value} Stores},
 booktitle   = {20th USENIX Conference on File and Storage Technologies (FAST 22)},
