@@ -527,7 +527,6 @@ bool MemTable::Add(SequenceNumber s, ValueType type,
   //  value_size   : varint32 of value.size()
   //  value bytes  : char[value.size()]
   uint32_t key_size = static_cast<uint32_t>(key.size());
-  uint32_t val_size = static_cast<uint32_t>(value.size());
   uint32_t internal_key_size = key_size + 8;
 #ifdef MEMTABLE 
   const uint32_t encoded_len = VarintLength(internal_key_size) +

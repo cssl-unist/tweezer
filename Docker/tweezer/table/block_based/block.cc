@@ -1013,8 +1013,8 @@ Block::Block(BlockContents&& contents, size_t read_amp_bytes_per_bit,
 }
 
 #ifdef BLOCK_ENC
-Block::Block(BlockContents&& contents, bool trusted, size_t read_amp_bytes_per_bit,
-             Statistics* statistics)
+Block::Block(BlockContents&& contents, __attribute__((unused)) bool trusted, __attribute__((unused)) size_t read_amp_bytes_per_bit,
+             __attribute__((unused)) Statistics* statistics)
     : contents_(std::move(contents)),
       data_(contents_.data.data()),
       size_(contents_.data.size()),

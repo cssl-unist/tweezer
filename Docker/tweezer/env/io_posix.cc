@@ -1292,7 +1292,7 @@ uint64_t PosixWritableFile::GetFileSize(const IOOptions& /*opts*/,
   return filesize_;
 }
 
-void PosixWritableFile::SetWriteLifeTimeHint(Env::WriteLifeTimeHint hint) {
+void PosixWritableFile::SetWriteLifeTimeHint(__attribute__((unused)) Env::WriteLifeTimeHint hint) {
 #ifdef ROCKSDB_SGX
 #ifdef OS_LINUX
 // Suppress Valgrind "Unimplemented functionality" error.

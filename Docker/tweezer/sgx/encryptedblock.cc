@@ -30,7 +30,7 @@ EncryptedBlock::EncryptedBlock(BlockContents&& contents, size_t read_amp_bytes_p
 EncryptedDataBlockIter* EncryptedBlock::NewDataIterator(const Comparator* raw_ucmp,
                                       SequenceNumber global_seqno,
                                       EncryptedDataBlockIter* iter, Statistics* stats,
-                                      bool block_contents_pinned) {
+                                      __attribute__((unused)) bool block_contents_pinned) {
   EncryptedDataBlockIter* ret_iter;
   if (iter != nullptr) {
     ret_iter = iter;
@@ -110,7 +110,6 @@ void EncryptedDataBlockIter::PrevImpl() {
 }
 
 void EncryptedDataBlockIter::SeekImpl(const Slice& target) {
-  Slice seek_key = target;
 //Reduce seek
 	int kRange = 15;
 	int start = 0;
@@ -140,13 +139,12 @@ void EncryptedDataBlockIter::SeekImpl(const Slice& target) {
 }
 
 bool EncryptedDataBlockIter::SeekForGetImpl(const Slice& target) {
-  Slice target_user_key = ExtractUserKey(target);
 	NextImpl();
-  for (; current_index < static_cast<int>(key_offset_map.size()) && Valid(); NextImpl()) {
-    if (CompareCurrentKey(target) >= 0)
-      break;
-  }
-  return true;
+	for (; current_index < static_cast<int>(key_offset_map.size()) && Valid(); NextImpl()) {
+		if (CompareCurrentKey(target) >= 0)
+		break;
+  	}
+  	return true;
 }
 
 void EncryptedDataBlockIter::SeekForPrevImpl(const Slice& target) {
