@@ -153,7 +153,7 @@ def is_sgx(config):
     return config['binary'] != './binary/vanilla'
 
 def start_sgxtop():
-    command = '../sgxtop-master/sgxtop stdout'.split()
+    command = '../sgxtop/sgxtop stdout'.split()
     return subprocess.Popen(command, stdout = subprocess.PIPE)
 
 def run_one_config(config):
