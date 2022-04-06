@@ -62,7 +62,7 @@ $ sudo delete_tmpfs.sh
 ~~~
 
 ## Authors
- - Igjae Kim (UNIST, KAIST) <ijkim@kaist.ac.kr>
+ - Igjae Kim (UNIST and KAIST) <ijkim@kaist.ac.kr>
  - J. Hyun Kim (UNIST) <ckeiom@unist.ac.kr>
  - Minu Chung (UNIST) <minu0122@unist.ac.kr>
  - Hyungon Moon (UNIST) <hyungon@unist.ac.kr>
@@ -72,10 +72,11 @@ $ sudo delete_tmpfs.sh
 ```
 @inproceedings {277820,
 title       = {A {Log-Structured} Merge Tree-aware Message Authentication Scheme for Persistent {Key-Value} Stores},
+author      = {Igjae Kim and J. Hyun Kim and Minu Chung and Hyungon Moon{**} and Sam H. Noh},
 booktitle   = {20th USENIX Conference on File and Storage Technologies (FAST 22)},
 year        = {2022},
-address = {Santa Clara, CA},
-publisher = {USENIX Association},
-month = feb,
+address     = {Santa Clara, CA},
+publisher   = {USENIX Association},
+month       = feb,
 }
 ```
