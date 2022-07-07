@@ -136,7 +136,7 @@ def ping():
     res = subprocess.run("./ping.txt")
 
 def cleanup():
-    untrusted_mem = 'rm  -f /app/untrusted_memory'.split()
+    untrusted_mem = 'rm  -f /app/untrusted_memory/foo'.split()
     checked_run(untrusted_mem)
 
 
@@ -160,7 +160,7 @@ def run_one_config(config):
     args = config_to_args(config)
     print(args)
     if (is_sgx(config)):
-        untrusted_mem = 'fallocate -l 4G /app/untrusted_memory'.split()
+        untrusted_mem = 'fallocate -l 4G /app/untrusted_memory/foo'.split()
         checked_run(untrusted_mem)
 
     sgxtop_process = start_sgxtop() 
