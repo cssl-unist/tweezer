@@ -49,16 +49,16 @@ $ script/compile.sh
 ## Run for testing
 * You can configure workloads and benchmark using config.csv
 ~~~{.sh}
-$ cd test
-
 # Generate tmpfs for untrusted memory
-$ sudo generate_tmpfs.sh
+$ cd script
+$ sudo ./generate_tmpfs.sh
 
 $ cd test 
 $ python3 csv-to-run.py
 
 # Delete tmpfs
-$ sudo delete_tmpfs.sh
+$ cd script
+$ sudo ./delete_tmpfs.sh
 ~~~
 
 ## Authors
