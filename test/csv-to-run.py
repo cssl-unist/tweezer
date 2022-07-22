@@ -160,7 +160,7 @@ def run_one_config(config):
     args = config_to_args(config)
     print(args)
     if (is_sgx(config)):
-        untrusted_mem = 'fallocate -l 4G /app/untrusted_memory/foo'.split()
+        untrusted_mem = 'fallocate -l 4G /app/untrusted_memory'.split()
         checked_run(untrusted_mem)
 
     sgxtop_process = start_sgxtop() 
