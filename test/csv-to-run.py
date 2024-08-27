@@ -112,6 +112,9 @@ def config_to_args(config):
 
 def dump(res, args, config, sgxtop):
     fname = (str(datetime.datetime.now()) + '.txt').replace(" ","-").replace(":","-")
+    # Ensure 'output/' exists
+    if not os.path.exists('output') :
+        os.mkdir('output')
     with open('output/' + fname, 'w') as f:
         f.write('@@start\n')
         f.write(str(args) + '\n\n')
