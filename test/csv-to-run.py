@@ -134,10 +134,6 @@ with open(csv_name, 'r') as f:
     print(lines)
     config = list(filter(lambda x: x != {}, map(lambda x: line_to_config(x.strip()), lines)))
 
-
-def ping():
-    res = subprocess.run("./ping.txt")
-
 def cleanup():
     untrusted_mem = 'rm  -f /app/untrusted_memory/foo'.split()
     checked_run(untrusted_mem)
@@ -149,7 +145,6 @@ def checked_run(args):
         return res
     except Exception as e:
         cleanup()
-        ping()
         return 1
 
 def is_sgx(config):
@@ -189,5 +184,3 @@ if __name__ == '__main__':
 
     for c in config:
         run_one_config(c)
-
-    ping()
