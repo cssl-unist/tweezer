@@ -60,7 +60,7 @@
 
 static inline void* do_mmap64(void *start, size_t length,
                               int prot, int flags,
-                              int fd, off64_t offset) __THROW {
+                              int fd, off_t offset) __THROW {
 #if defined(__s390__)
   long args[6] = { (long)start, (long)length, (long)prot, (long)flags,
                    (long)fd, (long)offset };
@@ -77,7 +77,7 @@ static inline void* do_mmap64(void *start, size_t length,
 
 static inline void* do_mmap64(void *start, size_t length,
                               int prot, int flags,
-                              int fd, off64_t offset) __THROW {
+                              int fd, off_t offset) __THROW {
   void *result;
 
   // Try mmap2() unless it's not supported
@@ -149,7 +149,7 @@ static inline void* do_mmap64(void *start, size_t length,
 
 extern "C" {
   void* mmap64(void *start, size_t length, int prot, int flags,
-               int fd, off64_t offset  ) __THROW
+               int fd, off_t offset  ) __THROW
     ATTRIBUTE_SECTION(malloc_hook);
   void* mmap(void *start, size_t length,int prot, int flags,
              int fd, off_t offset) __THROW
@@ -164,7 +164,7 @@ extern "C" {
 }
 
 extern "C" void* mmap64(void *start, size_t length, int prot, int flags,
-                        int fd, off64_t offset) __THROW {
+                        int fd, off_t offset) __THROW {
   MallocHook::InvokePreMmapHook(start, length, prot, flags, fd, offset);
   void *result;
   if (!MallocHook::InvokeMmapReplacement(
