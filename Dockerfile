@@ -1,4 +1,4 @@
-FROM registry.scontain.com:5050/sconecuratedimages/crosscompilers:ubuntu
+FROM registry.scontain.com/sconecuratedimages/crosscompilers:ubuntu
 
 ADD Docker /root
 WORKDIR /root
